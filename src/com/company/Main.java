@@ -6,6 +6,10 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
+        ex1();
+    }
+
+    private static void ex1() {
         Scanner lector = new Scanner(System.in);
         System.out.println("Ingrese un numero");
         int num1 = lector.nextInt();
